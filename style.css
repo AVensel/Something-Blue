@@ -1,0 +1,175 @@
+.brand {
+  color: #4682b4;
+  font-family: 'Cinzel Decorative', cursive;
+}
+body {
+  background-color: #f5f5f5;
+}
+
+header h1 {
+  font-family: 'Cinzel Decorative', cursive;
+  font-size: 72px;
+  color: #4682b4;
+  text-shadow: 1px 1px 0px #000000;
+  margin-bottom: 2px;
+  margin-top: 20px;
+}
+
+header h3 {
+  font-family: 'Encode Sans Condensed', sans-serif;
+  font-size: 32px;
+  color: #4682b4;
+  text-shadow: 1px 1px 0px #000000;
+  margin-top: 2px;
+
+}
+
+hgroup {
+  background-image: url("somethingbluelace.jpeg");
+  background-repeat: repeat-x;
+  padding-bottom: 15px;
+  padding-top: 15px;
+  padding-left: 10px;
+}
+nav>ul {
+  font-family: 'Encode Sans Condensed', sans-serif;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #4682b4;
+  border: 1px solid #708090;
+}
+
+nav li {
+  float:left;
+}
+
+nav a {
+  display: block;
+  color: white;
+  font-size: 18px;
+  text-align: center;
+  padding: 12px 50px;
+  text-decoration: none;
+
+}
+
+nav a:hover {
+  background-color: #708090;
+}
+.active {
+  background-color: #87ceeb;
+}
+
+p {
+  font-family: 'Encode Sans Condensed', sans-serif;
+  color: #708090;
+}
+
+.opener {
+  font-family: 'Encode Sans Condensed', sans-serif;
+}
+
+#container {
+  position: relative;
+  min-height: 100vh;
+  margin-bottom: 3rem;
+}
+
+#content {
+  padding-bottom: 4rem;
+}
+
+footer {
+  font-family: 'Encode Sans Condensed', sans-serif;
+  color: #708090;
+  position: absolute;
+  height: 2rem;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+
+}
+
+p.main::first-letter {
+  font-size: 160%;
+}
+
+p.main {
+  line-height: 1.6em;
+}
+img.avery {
+  float: left;
+  margin-left: 20px;
+  margin-top: 25px;
+  box-shadow: 10px -5px 10px #708090;
+}
+
+p.about {
+  margin-bottom: 400px;
+  margin-right: 200px;
+  margin-top: 80px;
+  line-height: 1.6em;
+}
+
+p.about::first-letter {
+  font-size: 160%;
+}
+
+img.zaneCamilla {
+  margin-left: 300px;
+  margin-top: 100px;
+  margin-bottom: 70px;
+  box-shadow: 10px -5px 10px #708090;
+
+}
+
+p.zaneCamilla {
+  float: right;
+  width: 500px;
+  margin-right: 300px;
+  margin-top: 200px;
+  line-height: 1.6em;
+}
+
+p.zaneCamilla::first-letter {
+  font-size: 160%;
+}
+
+img.jonKendall {
+  float: right;
+  width: 350px;
+  margin-right: 200px;
+  box-shadow: 10px -5px 10px #708090;
+}
+
+p.jonKendall {
+  width: 500px;
+  margin-left: 400px;
+  margin-top: 200px;
+  margin-bottom: 350px;
+  line-height: 1.6em;
+}
+
+p.jonKendall::first-letter {
+  font-size: 160%;
+}
+
+p.services {
+  line-height: 1.6em;
+}
+legend, label {
+  font-family: 'Encode Sans Condensed', sans-serif;
+  color: #708090;
+}
+
+
+#contact {
+  font-size: 20px;
+  font-family: 'Encode Sans Condensed', sans-serif;
+  color: #708090;
+}
+fieldset {
+  width: 500px;
+}
